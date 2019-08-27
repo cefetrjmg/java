@@ -5,7 +5,6 @@
  */
 package br.cefetrj.mg.bsi.lista01;
 
-import java.util.Objects;
 import java.util.Random;
 import javax.swing.JOptionPane;
 
@@ -19,7 +18,7 @@ public class Exec19 {
      * @param args the command line arguments
      */
     //constante para limitar a quantidade de números a serem sorteados.
-    private static int MAX = 100;
+    private static final int MAX = 100;
 
     public static void main(String[] args) {
         // TODO code application logic here
