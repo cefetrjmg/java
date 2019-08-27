@@ -26,10 +26,12 @@ public class Exec19 {
         int num = 0, qtdAlternativas = 0, numSorteado = 0;
         //Classe para gerar números aleatórios.
         Random r = new Random();
+        numSorteado = r.nextInt(MAX);
+        
         //Enquanto não acertar será repetido.
         while (!achou) {
             //Sortea números entre 0 e o valor definido no 'MAX'.
-            numSorteado = r.nextInt(MAX);
+            
             num = Integer.parseInt(JOptionPane.showInputDialog(null, "Informe um número:"));
             System.out.println("num:"+num+" sortedo:"+numSorteado);
             if (num == numSorteado) {
