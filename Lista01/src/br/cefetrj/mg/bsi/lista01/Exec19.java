@@ -19,7 +19,7 @@ public class Exec19 {
      */
     //constante para limitar a quantidade de números a serem sorteados.
     private static final int MAX = 100;
-    
+    String log="";
     public static void main(String[] args) {
         // TODO code application logic here
         boolean achou = false;
