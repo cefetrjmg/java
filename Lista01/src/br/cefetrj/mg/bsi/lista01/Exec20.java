@@ -6,7 +6,7 @@
 package br.cefetrj.mg.bsi.lista01;
 
 import br.cefetrj.mg.bsi.lista01.model.Exec20Model;
-import br.ceferj.mg.bsi.lista01.dao.Exec20DAO;
+import br.cefetrj.mg.bsi.lista01.dao.Exec20DAO;
 import javax.swing.JOptionPane;
 
 /**
