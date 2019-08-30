@@ -5,28 +5,20 @@
  */
 package br.cefetrj.mg.bsi.lista01.model;
 
-import java.util.ArrayList;
-
 /**
  *
  * @author aluno-2
  */
 public class Exec20Model {
+
     private String nome;
     private String sexo;
     private float peso;
     private int idade;
-    private  float altura;
-    private static ArrayList<Exec20Model> pacientes =new ArrayList<>();
-
-    public static ArrayList<Exec20Model> getPacientes() {
-        return pacientes;
-    }
-
-    public static void setPacientes(ArrayList<Exec20Model> pacientes) {
-        Exec20Model.pacientes = pacientes;
-    }
+    private float altura;
     
+
+
     public String getNome() {
         return nome;
     }
@@ -66,23 +58,5 @@ public class Exec20Model {
     public void setAltura(float altura) {
         this.altura = altura;
     }
-    //Funções para gerar o relatório.
-    public int getTotal(){
-        return pacientes.size();
-    }
-    public float mediaDeIdadeDosHomens(){
-        float media=0, soma=0;
-        int qtd=0;
-        for (int i = 0; i < getTotal(); i++) {
-            Exec20Model paciente=pacientes.get(i);
-            if(paciente.sexo.equalsIgnoreCase("m")){
-                qtd++;
-                soma+=paciente.idade;
-            }
-        }
-        media=soma/qtd;
-        return media;
-    }
-    
-    
+
 }
