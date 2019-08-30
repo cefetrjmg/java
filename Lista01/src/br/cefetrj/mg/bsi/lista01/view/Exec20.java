@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.cefetrj.mg.bsi.lista01.main;
+package br.cefetrj.mg.bsi.lista01.view;
 
 import br.cefetrj.mg.bsi.lista01.model.Exec20Model;
 import br.cefetrj.mg.bsi.lista01.dao.Exec20DAO;
