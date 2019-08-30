@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.ceferj.mg.bsi.lista01.dao;
+package br.cefetrj.mg.bsi.lista01.dao;
 
 import br.cefetrj.mg.bsi.lista01.model.Exec20Model;
 import java.util.ArrayList;
