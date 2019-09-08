@@ -5,7 +5,6 @@
  */
 package br.cefetrj.mg.bsi.lista01.view;
 
-
 import br.cefetrj.mg.bsi.lista01.dao.Exec07DAO;
 import br.cefetrj.mg.bsi.lista01.utils.Utils;
 import javax.swing.JOptionPane;
@@ -16,15 +15,19 @@ import javax.swing.JOptionPane;
  */
 public class Exec07 extends Utils {
 
-    public static final String TITLE="Sistema de biblioteca";
+    public static final String TITLE = "Sistema de biblioteca";
+    public static final String MENU = "1-Inserir\n2-Alterar\n3-Excluir\n4-Listar";
+
     public static void main(String[] args) {
-        Exec07DAO dao =new Exec07DAO();
-        int resp=-1;
-        do{
-            
-          resp =confirm("Deseja continuar?", TITLE);
-        }while(resp==JOptionPane.YES_OPTION);
-        
+        Exec07DAO dao = new Exec07DAO();
+        int resp = -1, op = -1;
+
+        do {
+
+            op = Integer.parseInt(input(MENU, TITLE));
+            resp = confirm("Deseja continuar?", TITLE);
+        } while (resp == JOptionPane.YES_OPTION);
+
     }
-    
+
 }
