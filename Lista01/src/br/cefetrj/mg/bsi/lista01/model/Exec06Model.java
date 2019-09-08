@@ -74,7 +74,6 @@ public class Exec06Model {
     
     public float calcular(){
         return peso/(altura*altura);
-        
     }
     
 }
