@@ -10,17 +10,17 @@ package br.cefetrj.mg.bsi.lista01.model;
  * @author Maurício
  */
 public class Exec07Model {
-    private int id;
+    private String nome;
     private int ISBN;
     private String titulo;
     private String autor;
 
-    public int getId() {
-        return id;
+    public String getNome() {
+        return nome;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public int getISBN() {
