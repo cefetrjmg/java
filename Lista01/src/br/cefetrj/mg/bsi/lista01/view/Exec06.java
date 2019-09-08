@@ -25,9 +25,11 @@ public class Exec06  extends Utils{
         // TODO code application logic here
         int resp = 0;
         do {
+
             Exec06Model pessoa = new Exec06Model();
             String nome=input("Informe seu nome:",TITLE);
             pessoa.setNome(nome);
+
             resp = confirm("Deseja continuar?", TITLE);
         } while (resp == JOptionPane.YES_OPTION);
 

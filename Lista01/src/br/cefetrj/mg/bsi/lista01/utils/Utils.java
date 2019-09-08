@@ -18,4 +18,7 @@ public class Utils {
     public static void print(String msg, String title, boolean error){
         JOptionPane.showMessageDialog(null, msg,title,(error?JOptionPane.ERROR_MESSAGE:JOptionPane.INFORMATION_MESSAGE));
     }
+    public static int confirm(String msg, String title){
+        return JOptionPane.showConfirmDialog(null, msg, title,JOptionPane.YES_NO_OPTION);
+    }
 }
