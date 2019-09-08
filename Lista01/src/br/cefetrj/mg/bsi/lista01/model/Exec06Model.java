@@ -55,5 +55,21 @@ public class Exec06Model {
     public void setSexo(String sexo) {
         this.sexo = sexo;
     }
+
+    @Override
+    public String toString() {
+        float imc=calcular();
+        String situacao="";
+        if(imc <=18.5)
+            situacao="abaixo do peso normal.";
+        else if(imc <=25)
+            situacao="com peso normal.";
+        else if(imc <=30)
+            situacao="acima do peso normal.";
+        else
+            situacao="com obesidade.";
+        return "Você, "+nome+" está "+situacao;
+    }
+    
     
 }
