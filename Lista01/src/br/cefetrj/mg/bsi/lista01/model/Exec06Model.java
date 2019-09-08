@@ -58,7 +58,7 @@ public class Exec06Model {
 
     @Override
     public String toString() {
-        float imc=calcular();
+        float imc = calcular();
         String situacao="";
         if(imc <=18.5)
             situacao="abaixo do peso normal.";
@@ -71,5 +71,15 @@ public class Exec06Model {
         return "Você, "+nome+" está "+situacao;
     }
     
+    
+    public float calcular(float peso, float alt){
+        
+        float imc;
+        
+        imc = peso / (alt*alt);
+        
+        return imc;
+        
+    }
     
 }
