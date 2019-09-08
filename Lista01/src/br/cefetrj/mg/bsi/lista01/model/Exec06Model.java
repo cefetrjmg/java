@@ -72,13 +72,8 @@ public class Exec06Model {
     }
     
     
-    public float calcular(float peso, float alt){
-        
-        float imc;
-        
-        imc = peso / (alt*alt);
-        
-        return imc;
+    public float calcular(){
+        return peso/(altura*altura);
         
     }
     
