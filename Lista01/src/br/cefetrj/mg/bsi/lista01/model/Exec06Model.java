@@ -72,4 +72,21 @@ public class Exec06Model {
     }
     
     
+    public void calcularIMC(float peso, float alt){
+        float imc;
+        
+        imc = peso / (alt*alt);
+        
+        if(imc <= 18.5){
+            System.out.println("Abaixo do peso normal");
+        }else if(imc > 18.5 && imc <= 25){
+            System.out.println("Peso normal");
+        }else if(imc > 25 && imc <= 30){
+            System.out.println("Acima do peso normal");
+        }else{
+            System.out.println("Obesidade");
+        }
+        
+    }
+    
 }
