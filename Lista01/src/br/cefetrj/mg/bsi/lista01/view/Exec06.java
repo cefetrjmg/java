@@ -27,9 +27,12 @@ public class Exec06  extends Utils{
         do {
 
             Exec06Model pessoa = new Exec06Model();
-            String nome=input("Informe seu nome:",TITLE);
-            pessoa.setNome(nome);
-
+            pessoa.setNome(input("Informe seu nome:",TITLE));
+            pessoa.setAltura(Float.parseFloat(input("Informe sua altura:",TITLE)));
+            pessoa.setPeso(Float.parseFloat(input("Informe seu peso:",TITLE)));
+            pessoa.setSexo(input("Informe seu sexo(S/M):",TITLE));
+            pessoa.setIdade(Integer.parseInt(input("Informe sua idade:",TITLE)));
+            print(pessoa.toString(),TITLE,false);
             resp = confirm("Deseja continuar?", TITLE);
         } while (resp == JOptionPane.YES_OPTION);
 
