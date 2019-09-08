@@ -6,22 +6,27 @@
 package br.cefetrj.mg.bsi.lista01.view;
 
 import javax.swing.JOptionPane;
+import br.cefetrj.mg.bsi.lista01.utils.Utils;
 
 /**
  *
  * @author cristian
  */
-public class Exec06 {
+public class Exec06  extends Utils{
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    private static final String TITLE="Cálculo de IMC";
+    
+    
+    public static void main(String[] args)  {
         // TODO code application logic here
         int resp = 0;
         do {
             Exec06 pessoa = new Exec06();
-            resp = JOptionPane.showConfirmDialog(null, "Deseja continuar?", "Cálculo de IMC", JOptionPane.YES_NO_OPTION);
+            
+            resp = confirm("Deseja continuar?", TITLE);
         } while (resp == JOptionPane.YES_OPTION);
 
     }
