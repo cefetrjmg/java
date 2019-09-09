@@ -19,9 +19,9 @@ public class Exec07DAO {
     public String inserir(Exec07Model livro) {
         try {
             livros.add(livro);
-            return "ok-Livro adicionado com sucesso!";
+            return "1-Livro adicionado com sucesso!";
         } catch (Exception e) {
-            return "error-Error ao inserir livro:" + e.getMessage();
+            return "0-Error ao inserir livro:" + e.getMessage();
         }
 
     }
@@ -29,10 +29,10 @@ public class Exec07DAO {
     public String alterar(Exec07Model livro) {
         int pos = buscar(livro.getId());
         if (pos != -1) {
-            livros.add(pos, livro);
-            return "ok-Livro atualizado com sucesso!";
+            livros.set(pos, livro);
+            return "1-Livro atualizado com sucesso!";
         }
-        return "error-Livro não encontrado";
+        return "0-Livro não encontrado";
 
     }
 
@@ -41,9 +41,9 @@ public class Exec07DAO {
         int pos = buscar(id);
         if (pos != -1) {
             livros.remove(pos);
-            return "Livro removido com sucesso!";
+            return "1-Livro removido com sucesso!";
         }
-        return "error-Livro não encontrado!";
+        return "0-Livro não encontrado!";
 
     }
 
@@ -65,6 +65,9 @@ public class Exec07DAO {
             l += "\n";
         }
         return l;
+    }
+    public boolean verificar(int id){
+        return buscar(id) != -1;
     }
 
 }
