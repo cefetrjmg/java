@@ -12,8 +12,17 @@ import javax.swing.JOptionPane;
  * @author cristian
  */
 public class Utils {
+    public static String input(String msg){
+        return JOptionPane.showInputDialog(null, msg);
+    }
     public static String input(String msg, String title){
         return JOptionPane.showInputDialog(null,msg,title);
+    }
+    public static void print(String msg){
+        JOptionPane.showMessageDialog(null, msg);
+    }
+    public static void print(String msg, String title){
+        JOptionPane.showMessageDialog(null, msg, title, 0);
     }
     public static void print(String msg, String title, boolean error){
         JOptionPane.showMessageDialog(null, msg,title,(error?JOptionPane.ERROR_MESSAGE:JOptionPane.INFORMATION_MESSAGE));
