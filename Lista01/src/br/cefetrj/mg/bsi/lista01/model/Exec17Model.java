@@ -12,8 +12,7 @@ package br.cefetrj.mg.bsi.lista01.model;
 public class Exec17Model {
     private String sexo;
     private int idade;
-
-    public String getSexo() {
+public String getSexo() {
         return sexo;
     }
 
@@ -28,5 +27,7 @@ public class Exec17Model {
     public void setIdade(int idade) {
         this.idade = idade;
     }
+    
+    
     
 }

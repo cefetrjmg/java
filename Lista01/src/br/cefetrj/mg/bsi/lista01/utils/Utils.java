@@ -22,7 +22,7 @@ public class Utils {
         JOptionPane.showMessageDialog(null, msg);
     }
     public static void print(String msg, String title){
-        JOptionPane.showMessageDialog(null, msg, title, 0);
+        JOptionPane.showMessageDialog(null, msg, title, JOptionPane.INFORMATION_MESSAGE);
     }
     public static void print(String msg, String title, boolean error){
         JOptionPane.showMessageDialog(null, msg,title,(error?JOptionPane.ERROR_MESSAGE:JOptionPane.INFORMATION_MESSAGE));

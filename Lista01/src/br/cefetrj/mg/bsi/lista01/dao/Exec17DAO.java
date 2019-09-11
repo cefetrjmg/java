@@ -13,5 +13,24 @@ import java.util.ArrayList;
  * @author cristian
  */
 public class Exec17DAO {
-    private static final ArrayList<Exec17Model> pessoas =new ArrayList<>();
+    private static final  ArrayList<Exec17Model> pessoas =new ArrayList<>();
+    public String inserir(Exec17Model pessoa){
+        try {
+            pessoas.add(pessoa);
+            return "1-Pessoa inserida com sucesso!";
+        } catch (Exception e) {
+            return "0-"+e.getMessage();
+        }
+        
+    }
+    public String relatorio(){
+        int contH=0;
+        for (Exec17Model p : pessoas) {
+            if(p.getSexo().equalsIgnoreCase("m") && p.getIdade()>=18)
+                contH++;
+            
+        }
+        return ("Total de homens é de "+contH+" e de mulheres é de "+(pessoas.size()-contH)+".");
+    }
+    
 }
