@@ -12,17 +12,14 @@
 - https://netbeans.org/downloads/8.2/
 # Obtendo a lista de exercícios
 - acesse https://github.com/cefetrjmg201802/java
+- __Para contribuidor externo:__
 - clique no botão fork que se encontra no canto superior direito isso criará um repositorio no seu git
+- __Para integrante da turma e contribuidores externos:__
 - Entre no NetBeans 8.2
 - Clique na aba equipe
 - Clique em git
 - Clique em clonar
-- Entre no seu repositorio
-- Acesse o projeto
-- Clique em clone or download
-- Em clone with HTTPS, copie a URL 
-- Volte para o Netbeans
-- Cole essa URL em URL do Repositório no NetBeans
+- Cole essa URL:https://github.com/cefetrjmg201802/java.git em URL do Repositório no NetBeans
 - Forneça suas credencias do git
 - Aperter próximo duas vezes e finalize
 - Os próximos passos do netbeans é apertar próximo ele criará uma branch local chamada master e irá sincronizar com a sua branch do seu repositório remoto
@@ -38,7 +35,7 @@
 - Novamente clique na aba equipe
 - Clique em remoto
 - Clique em expandir para upstream
-# Caso queira contribuir com melhorias para a lista
+# Caso queira contribuir com melhorias para a lista (contribuidores externos):
 - acesse seu repositório
 - Acesse o seu projeto
 - Clique no botão __pull request__
