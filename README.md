@@ -26,7 +26,7 @@
 
 # Subindo as alterações para o seu repositório
 - Entre no NetBeans 8.2
-- Clique em cima do seu projeto para poder subir todas as alterações que foram feitas, pois se fizer os próximos passos somente com um arquivo selecionado fará somente o upload desse arquivo.
+- __Clique em cima do seu projeto para poder subir todas as alterações que foram feitas, pois se fizer os próximos passos somente com um arquivo selecionado fará somente o upload desse arquivo.__
 - Vá na aba equipe
 - Clique em fazer commit
 - Escreva uma mensagem clara do que você fez
