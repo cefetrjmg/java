@@ -19,9 +19,7 @@ public class Exec07 extends Utils {
     public static final String TITLE = "Sistema de biblioteca";
     public static final String MENU = "1-Inserir\n2-Alterar\n3-Excluir\n4-Listar";
 
-    private static void carregarLivro() {
-
-    }
+  
 
     public static void main(String[] args) {
         Exec07DAO dao = new Exec07DAO();
