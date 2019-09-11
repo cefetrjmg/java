@@ -24,13 +24,14 @@ public class Exec17DAO {
         
     }
     public String relatorio(){
-        int contH=0;
+        int contH=0,contM=0;
         for (Exec17Model p : pessoas) {
             if(p.getSexo().equalsIgnoreCase("m") && p.getIdade()>=18)
                 contH++;
-            
+            else if(p.getSexo().equalsIgnoreCase("f") && p.getIdade()>=18)
+                contM++;
         }
-        return ("Total de homens é de "+contH+" e de mulheres é de "+(pessoas.size()-contH)+".");
+        return ("Total de homens é de "+contH+" e de mulheres é de "+(contM)+".");
     }
     
 }
