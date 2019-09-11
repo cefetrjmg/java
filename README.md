@@ -22,7 +22,7 @@
 - Forneça suas credencias do git
 - Aperter próximo duas vezes e finalize
 - Os próximos passos do netbeans é apertar próximo ele criará uma branch local chamada master e irá sincronizar com a sua branch do seu repositório remoto
-- Aperter no botão abrir projeto num Dialog que aparecerá
+- Aperte no botão abrir projeto num Dialog que aparecerá
 
 # Subindo as alterações para o seu repositório
 - Entre no NetBeans 8.2
