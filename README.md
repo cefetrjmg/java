@@ -1,5 +1,5 @@
 # Resumo
-  Este repositório foi pela __primeira turma__  de bacharelado de sistemas de informação do CEFET-RJ de Maria da Graça com o intuito de agilizar as listas de exercícios solicitadas pelo o professor, mas isso não impede de que algum exercício vire um protótipo de algum projeto.
+  Este repositório foi feito pela __primeira turma__  de bacharelado de sistemas de informação do CEFET-RJ de Maria da Graça com o intuito de agilizar as listas de exercícios solicitadas pelo o professor, mas isso não impede de que algum exercício vire um protótipo de algum projeto.
 - Os arquivos executáveis se encontram no pacote br.cefetrj.mg.bsi.lista01.view 
 - Em alguns exercícios foram utilizando o padrão de projeto "MVC", DAO e singleton
 ## __Sugestões:__
