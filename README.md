@@ -12,8 +12,7 @@
 - https://netbeans.org/downloads/8.2/
 # Obtendo a lista de exercícios
 - acesse https://github.com/cefetrjmg201802/java
-- __Para contribuidor externo:__
-- clique no botão fork que se encontra no canto superior direito isso criará um repositorio no seu git
+- __Para contribuidor externo:__ clique no botão fork que se encontra no canto superior direito isso criará um repositorio no seu git
 - __Para integrante da turma e contribuidores externos:__
 - Entre no NetBeans 8.2
 - Clique na aba equipe
