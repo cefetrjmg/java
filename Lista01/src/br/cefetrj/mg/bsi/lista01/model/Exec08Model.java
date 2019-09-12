@@ -42,6 +42,7 @@ public class Exec08Model {
         return this.preco * this.diasAlug;
     }    
     
+    @Override
     public String toString(){
         float tot = getPrecoAluguel();
         
