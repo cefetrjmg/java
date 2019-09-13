@@ -1,16 +1,18 @@
 package br.cefetrj.mg.bsi.lista01.view;
 
-import java.io.InputStreamReader;
 import java.util.Scanner;
 
-public class Test { 
+public class Exec05 { 
     public static void main(String[] args) { 
         int meta; 
         int valorVendas; 
         String desempenho; 
         int bonus; 
-        meta = Entrada.in.lerInt("Meta de vendas? "); 
-        valorVendas = Entrada.in.lerInt("Total de vendas realizadas? "); 
+        Scanner scanner =new Scanner(System.in);
+        System.out.println("Meta de vendas? ");
+        meta = scanner.nextInt(); 
+        System.out.println("Total de vendas realizadas? ");
+        valorVendas = scanner.nextInt(); 
         desempenho = "insatisfatorio"; 
         bonus = 0; 
         if(valorVendas >= 2 * meta) { 
