@@ -1,7 +1,7 @@
 # Resumo
   Este repositório foi feito pela __primeira turma__  de bacharelado de sistemas de informação do CEFET-RJ de Maria da Graça com o intuito de agilizar as listas de exercícios solicitadas pelo o professor, mas isso não impede de que algum exercício vire um protótipo de algum projeto.
 - Os arquivos executáveis se encontram no pacote br.cefetrj.mg.bsi.lista01.view 
-- Em alguns exercícios foram utilizando o padrões de projetos "MVC", DAO e singleton
+- Em alguns exercícios foram utilizados os seguintes padrões de projetos: "MVC", DAO e singleton
 ## __Sugestões:__
 - Dê uma olhada no exercício 7 tem um grande potencial de ser um protótipo de projeto. 
 - Se algum passo abaixo estiver errado envie um __pull request__ do readme( será explicado abaixo). 
@@ -21,7 +21,7 @@
 - Cole essa URL:https://github.com/cefetrjmg201802/java.git em URL do Repositório no NetBeans
 - Forneça suas credencias do git
 - Aperter próximo duas vezes e finalize
-- Os próximos passos do netbeans é apertar próximo ele criará uma branch local chamada master e irá sincronizar com a sua branch do seu repositório remoto
+- Os próximos passos do netbeans  criará uma branch local chamada master e irá sincronizar com a sua branch do seu repositório remoto
 - Aperte no botão abrir projeto num Dialog que aparecerá
 
 # Subindo as alterações para o seu repositório
