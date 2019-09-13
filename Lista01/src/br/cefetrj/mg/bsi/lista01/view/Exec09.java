@@ -1,40 +1,42 @@
 package br.cefetrj.mg.bsi.lista01.view;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Exec09 {
 
-    public static void main(String[] args) {
-        public class Cart {
-            private String name;
-            private String naipe;
+    static class Cart {
 
-            public String getName() {
-                return name;
-            }
+        private String name;
+        private String naipe;
 
-            public void setName(String nome) {
-                this.nome = name;
-            }
+        public String getName() {
+            return name;
+        }
 
-            public String getNaipe() {
-                return naipe;
-            }
+        public void setName(String name) {
+            this.name = name;
+        }
 
-            public void setNaipe(String naipe) {
-                this.naipe = naipe;
-            }   
+        public String getNaipe() {
+            return naipe;
+        }
+
+        public void setNaipe(String naipe) {
+            this.naipe = naipe;
         }
     }
-    
-    public class Deck {
 
-        private final List<Cart> cartsList;
+    public static void main(String[] args) {
+      
+        final List<Cart> cartsList;
 
-        public Deck() {
+       
             cartsList = new ArrayList<>();
 
             String[] naipes = {"Paus", "Ouros", "Copas", "Espadas"};
             int pos = 0;
-            Cart c;
+            Cart c = null;
 
             while (pos < 4) {
                 for (int i = 1; i <= 10; i++) {
@@ -67,4 +69,4 @@ public class Exec09 {
         }
     }
 
-}
+
