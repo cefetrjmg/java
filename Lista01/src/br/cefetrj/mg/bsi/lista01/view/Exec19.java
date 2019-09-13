@@ -1,22 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package br.cefetrj.mg.bsi.lista01.view;
 
 import java.util.Random;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author cristian
- */
 public class Exec19 {
 
-    /**
-     * @param args the command line arguments
-     */
     //constante para limitar a quantidade de números a serem sorteados.
     private static final int MAX = 100;
 
@@ -26,7 +14,7 @@ public class Exec19 {
     }
 
     public static void main(String[] args) {
-        // TODO code application logic here
+  
         boolean achou = false;
         int num = 0, qtdAlternativas = 0, numSorteado = 0;
         //Classe para gerar números aleatórios.

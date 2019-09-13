@@ -1,23 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package br.cefetrj.mg.bsi.lista01.view;
 
 import br.cefetrj.mg.bsi.lista01.utils.Utils;
 import br.cefetrj.mg.bsi.lista01.dao.Exec17DAO;
 import br.cefetrj.mg.bsi.lista01.model.Exec17Model;
 
-/**
- *
- * @author cristian
- */
 public class Exec17 extends Utils {
 
-    /**
-     * @param args the command line arguments
-     */
     private static final int MAX = 100;
     private static final String TITLE = "Cadastro de pessoas";
     static Exec17DAO dao=null;
@@ -50,7 +38,6 @@ public class Exec17 extends Utils {
     }
 
     public static void main(String[] args) {
-        // TODO code application logic here
         inserir();
         listar();
     }

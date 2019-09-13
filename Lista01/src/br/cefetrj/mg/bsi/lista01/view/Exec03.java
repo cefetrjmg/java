@@ -2,10 +2,6 @@ package br.cefetrj.mg.bsi.lista01.view;
 
 import java.util.Scanner;
 
-/**
- *
- * @author Maurício
- */
 public class Exec03 {
 
     static void ordenar(int elementos[]) {

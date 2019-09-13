@@ -3,10 +3,6 @@ package br.cefetrj.mg.bsi.lista01.view;
 import br.cefetrj.mg.bsi.lista01.model.Exec16Model;
 import java.util.Scanner;
 
-/**
- *
- * @author Maurício
- */
 
 public class Exec16 {
 

@@ -2,10 +2,6 @@ package br.cefetrj.mg.bsi.lista01.model;
 
 import java.util.Stack;
 
-/**
- *
- * @author Maurício
- */
 public class Exec16Model {
  
     // pilha de comandos que substitui as chamadas recursivas
