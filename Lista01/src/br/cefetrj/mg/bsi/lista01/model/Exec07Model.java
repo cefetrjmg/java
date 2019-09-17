@@ -2,7 +2,7 @@ package br.cefetrj.mg.bsi.lista01.model;
 
 public class Exec07Model {
     private int id;
-    private int ISBN;
+    private String ISBN;
     private String titulo;
     private String autor;
 
@@ -14,14 +14,7 @@ public class Exec07Model {
         this.id = id;
     }
 
-    public int getISBN() {
-        return ISBN;
-    }
-
-    public void setISBN(int ISBN) {
-        this.ISBN = ISBN;
-    }
-
+    
     public String getTitulo() {
         return titulo;
     }
@@ -36,6 +29,14 @@ public class Exec07Model {
 
     public void setAutor(String autor) {
         this.autor = autor;
+    }
+
+    public String getISBN() {
+        return ISBN;
+    }
+
+    public void setISBN(String ISBN) {
+        this.ISBN = ISBN;
     }
     
     

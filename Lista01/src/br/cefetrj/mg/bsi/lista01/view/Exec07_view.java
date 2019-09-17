@@ -1,11 +1,11 @@
-package br.cefetrj.mg.bsi.lista01.view;
+/*package br.cefetrj.mg.bsi.lista01.view;
 
 import br.cefetrj.mg.bsi.lista01.dao.Exec07DAO;
 import br.cefetrj.mg.bsi.lista01.model.Exec07Model;
 import br.cefetrj.mg.bsi.lista01.utils.Utils;
 import javax.swing.JOptionPane;
 
-public class Exec07 extends Utils {
+public class Exec07_view extends Utils {
 
     public static final String TITLE = "Sistema de biblioteca";
     public static final String MENU = "1-Inserir\n2-Alterar\n3-Excluir\n4-Listar";
@@ -65,3 +65,4 @@ public class Exec07 extends Utils {
     }
 
 }
+*/
