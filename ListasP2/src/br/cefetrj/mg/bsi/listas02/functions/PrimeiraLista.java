@@ -6,6 +6,11 @@
 package br.cefetrj.mg.bsi.listas02.functions;
 import static br.cefetrj.mg.bsi.utils.Utils.*;
 import static br.cefetrj.mg.bsi.listas02.view.PrimeiraLista.*;
+import java.text.ParseException;
+import java.time.LocalDate;
+import java.util.Date;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 /**
  *
  * @author cristian
@@ -37,7 +42,34 @@ public class PrimeiraLista {
         
     }
     public static void exercicio2(){
-        
+        try {
+            Date dataNascimento=textToDate(input("Informe sua data de nascimento(dd/mm/aaaa):"));
+            int diaNascimento=dataNascimento.getDay();
+            int mesNascimento=dataNascimento.getMonth();
+            int anoNascimento=dataNascimento.getYear();
+            
+            Date hoje=new Date();
+            int diaHoje=hoje.getDay();
+            int mesHoje=hoje.getMonth();
+            int anoHoje=hoje.getYear();
+            
+            int diffAno=anoHoje-anoNascimento;
+            String msg="";
+            msg="Sua idade é "+diffAno+" anos.\n";
+            if(diffAno >= 16)
+                msg+="Pode Votar.\n";
+            if(diffAno >=18)
+                msg+="Pode tirar habilitação.\n";
+            
+            print(msg);
+            
+            
+            
+            
+            
+        } catch (ParseException ex) {
+            print("Informe um data válida.");
+        }
     }
     public static void exercicio3(){
         
