@@ -5,12 +5,8 @@
  */
 package br.cefetrj.mg.bsi.listas02.functions;
 import static br.cefetrj.mg.bsi.utils.Utils.*;
-import static br.cefetrj.mg.bsi.listas02.view.PrimeiraLista.*;
 import java.text.ParseException;
-import java.time.LocalDate;
 import java.util.Date;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 /**
  *
  * @author cristian
@@ -72,9 +68,17 @@ public class PrimeiraLista {
         }
     }
     public static void exercicio3(){
-        
+        int nums[]=new int[10];
+        int produto = 1;
+        for (int i = 0; i < 10; i++) {
+            nums[i]=Integer.parseInt(input("Informe o "+(i+1)+" º:"));
+            produto*=nums[i];
+        }
+        print("O Produto dos 10 números foi de "+produto);
     }
     public static void exercicio4(){
+        float valor=Float.parseFloat(input("Informe o valor do produto:"));
+        int qtd=Intger.pars
         
     }
     
