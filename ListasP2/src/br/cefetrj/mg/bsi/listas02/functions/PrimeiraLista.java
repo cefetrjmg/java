@@ -78,7 +78,19 @@ public class PrimeiraLista {
     }
     public static void exercicio4(){
         float valor=Float.parseFloat(input("Informe o valor do produto:"));
-        int qtd=Intger.pars
+        int qtd=Integer.parseInt(input("Informe a quantidade:"));
+        float total=valor*qtd;
+        float desconto=0;
+        if(qtd>=10)
+            desconto=0.1f;
+        else if(qtd >=40)
+            desconto=0.15f;
+        else
+            desconto=0.25f;
+        String msg="Valor da compra sem desconto R$"+total+".\n";
+        msg+="Valor da compra com desconto de "+(desconto*100)+"% é R$"+(total*(1-desconto));
+        print(msg);
+            
         
     }
     
